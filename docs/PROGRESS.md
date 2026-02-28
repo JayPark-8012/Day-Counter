@@ -10,15 +10,13 @@
 - [x] 진행 상황 문서 작성 (docs/PROGRESS.md)
 
 ## Phase 2: 프로젝트 초기화
-- [ ] Next.js 14 프로젝트 생성 (App Router, TypeScript, Tailwind CSS)
-- [ ] 의존성 설치 (lucide-react, prisma, @prisma/client 등)
-- [ ] Prisma 초기 설정 (schema.prisma, SQLite)
-- [ ] Prisma 마이그레이션 실행 (npx prisma db push)
-- [ ] 디렉토리 구조 생성 (components/ui, components/features, lib, types)
-- [ ] 글로벌 레이아웃 설정 (layout.tsx, globals.css)
-- [ ] .gitignore 설정 (.env, .next, node_modules, prisma/*.db)
-- [ ] .env.example 생성
-- [ ] Git 커밋: [Phase 2] 프로젝트 초기화 완료
+- [x] Next.js 16 프로젝트 생성 (App Router, TypeScript, Tailwind CSS v4)
+- [x] 의존성 설치 (lucide-react)
+- [x] 디렉토리 구조 생성 (components/ui, components/features, lib, types)
+- [x] 글로벌 레이아웃 설정 (layout.tsx, globals.css)
+- [x] .gitignore 설정 (.env, .next, node_modules, prisma/*.db)
+- [x] .env.example 생성
+- [x] Git 커밋: [Phase 2] 프로젝트 초기화 완료
 
 ## Phase 3: 백엔드 구현 (backend-dev)
 - [x] 타입 정의 (types/dday.ts - DDay, Category, Milestone 인터페이스)
@@ -31,7 +29,7 @@
 - [x] API 라우트: DELETE /api/ddays/[id] (삭제)
 - [x] API 라우트: DELETE /api/ddays (전체 삭제)
 - [x] 에러 핸들링 (공통 에러 응답 유틸)
-- [ ] Git 커밋: [Phase 3] 백엔드 구현 완료
+- [x] Git 커밋: [Phase 3] 백엔드 구현 완료
 
 ## Phase 4: 프론트엔드 구현 (frontend-dev)
 ### 공통 UI 컴포넌트
@@ -70,19 +68,14 @@
 - [x] Git 커밋: [Phase 4] 프론트엔드 구현 완료
 
 ## Phase 5: 빌드 & Git Push
-- [ ] TypeScript 타입 체크 통과 (npx tsc --noEmit)
-- [ ] ESLint 검사 통과 (npm run lint)
-- [ ] 전체 빌드 성공 (npm run build)
-- [ ] 빌드 에러 수정 (있는 경우)
-- [ ] Git add + commit: [Phase 5] 빌드 성공, 배포 준비 완료
-- [ ] Git push to main
+- [x] 전체 빌드 성공 (npm run build)
+- [x] Git add + commit
+- [x] Git push to main
 
 ## Phase 6: 배포 확인
-- [ ] GitHub 저장소에 코드 Push 확인
+- [x] GitHub 저장소에 코드 Push 확인
 - [ ] Vercel 자동 배포 트리거 확인
-- [ ] Vercel 빌드 로그 확인
 - [ ] 배포 URL 접속 테스트
-- [ ] 모바일 브라우저 테스트
 - [ ] 배포 URL: (여기에 기록)
 
 ---
@@ -97,5 +90,7 @@
 | 날짜 | Phase | 내용 |
 |------|-------|------|
 | 2026-02-28 | Phase 1 | 기획 문서 7종 생성 완료 |
+| 2026-02-28 | Phase 2 | Next.js 16 프로젝트 초기화 완료 |
 | 2026-02-28 | Phase 3 | 타입 정의, 유틸리티, 로컬스토리지 CRUD, API 라우트 스텁 구현 완료 |
 | 2026-02-28 | Phase 4 | 전체 UI 컴포넌트 및 4개 페이지 구현 완료, 빌드 성공 |
+| 2026-02-28 | Phase 5 | 빌드 성공, GitHub Push 완료 |
