@@ -21,16 +21,16 @@
 - [ ] Git 커밋: [Phase 2] 프로젝트 초기화 완료
 
 ## Phase 3: 백엔드 구현 (backend-dev)
-- [ ] 타입 정의 (types/dday.ts - DDay, Category, Milestone 인터페이스)
-- [ ] 유틸리티 함수 (lib/date-utils.ts - D-Day 계산, 마일스톤 생성)
-- [ ] 로컬스토리지 헬퍼 (lib/storage.ts - CRUD 함수)
-- [ ] API 라우트: GET /api/ddays (목록 조회)
-- [ ] API 라우트: POST /api/ddays (생성)
-- [ ] API 라우트: GET /api/ddays/[id] (상세 조회)
-- [ ] API 라우트: PUT /api/ddays/[id] (수정)
-- [ ] API 라우트: DELETE /api/ddays/[id] (삭제)
-- [ ] API 라우트: DELETE /api/ddays (전체 삭제)
-- [ ] 에러 핸들링 (공통 에러 응답 유틸)
+- [x] 타입 정의 (types/dday.ts - DDay, Category, Milestone 인터페이스)
+- [x] 유틸리티 함수 (lib/date-utils.ts - D-Day 계산, 마일스톤 생성)
+- [x] 로컬스토리지 헬퍼 (lib/storage.ts - CRUD 함수)
+- [x] API 라우트: GET /api/ddays (목록 조회)
+- [x] API 라우트: POST /api/ddays (생성)
+- [x] API 라우트: GET /api/ddays/[id] (상세 조회)
+- [x] API 라우트: PUT /api/ddays/[id] (수정)
+- [x] API 라우트: DELETE /api/ddays/[id] (삭제)
+- [x] API 라우트: DELETE /api/ddays (전체 삭제)
+- [x] 에러 핸들링 (공통 에러 응답 유틸)
 - [ ] Git 커밋: [Phase 3] 백엔드 구현 완료
 
 ## Phase 4: 프론트엔드 구현 (frontend-dev)
@@ -97,3 +97,4 @@
 | 날짜 | Phase | 내용 |
 |------|-------|------|
 | 2026-02-28 | Phase 1 | 기획 문서 7종 생성 완료 |
+| 2026-02-28 | Phase 3 | 타입 정의, 유틸리티, 로컬스토리지 CRUD, API 라우트 스텁 구현 완료 |
