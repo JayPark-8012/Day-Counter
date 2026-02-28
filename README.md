@@ -1,43 +1,36 @@
-# 🚀 Auto Build \& Deploy Template
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Claude Code 멀티 에이전트 시스템으로 아이디어 → 기획 → 개발 → 배포까지 자동화하는 템플릿
+## Getting Started
 
-## 사용 방법
+First, run the development server:
 
-### 1\. 이 템플릿으로 새 프로젝트 만들기
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-위의 **"Use this template"** 버튼 클릭 → **"Create a new repository"** 선택
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### 2\. 로컬에 클론
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-git clone https://github.com/JayPark-8012/\[새-프로젝트명].git
-cd \[새-프로젝트명]
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### 3\. Vercel 연결 (첫 번째만)
+## Learn More
 
-https://vercel.com/new 에서 이 저장소 연결
+To learn more about Next.js, take a look at the following resources:
 
-### 4\. VS Code에서 Claude Code 실행
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-/create-app \[앱 아이디어를 구체적으로 적기]
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### 5\. 세션 끊기면
+## Deploy on Vercel
 
-/resume
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 포함된 에이전트
-
-|에이전트|역할|모델|
-|-|-|-|
-|planner|기획, PRD, API 스펙, DB 설계|Opus|
-|backend-dev|API 라우트, DB 구현|Sonnet|
-|frontend-dev|UI 컴포넌트, 페이지 구현|Sonnet|
-
-## 기술 스택
-
-Next.js 14 / TypeScript / Tailwind CSS / Prisma / Vercel
-
-## 자동화 파이프라인
-
-아이디어 입력 → 기획 → 백엔드 → 프론트엔드 → 빌드 → Git Push → Vercel 자동 배포
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
